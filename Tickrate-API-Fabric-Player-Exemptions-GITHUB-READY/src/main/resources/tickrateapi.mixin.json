@@ -1,0 +1,23 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "com.min01.tickrateapi.mixin",
+	"plugin": "com.min01.tickrateapi.misc.TickrateMixinPlugin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"MixinLevel",
+		"MixinMinecraftServer",
+		"MixinEntity"
+	],
+	"client": [
+		"MixinMinecraft",
+		"MixinLevelRenderer",
+		"MixinParticleEngine"
+	],
+	"server": [
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"refmap": "tickrateapi.refmap.json"
+}

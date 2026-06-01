@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "${mod_id}",
+  "version": "${mod_version}",
+  "name": "${mod_name}",
+  "description": "${mod_description}",
+  "authors": ["${mod_authors}"],
+  "contact": {
+    "sources": "https://github.com/min2222/Tickrate-API"
+  },
+  "license": "${mod_license}",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.min01.tickrateapi.TickrateAPI"],
+    "client": ["com.min01.tickrateapi.TickrateAPIClient"]
+  },
+  "mixins": [
+    "tickrateapi.mixin.json"
+  ],
+  "accessWidener": "tickrateapi.accesswidener",
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}",
+    "java": ">=17"
+  }
+}
