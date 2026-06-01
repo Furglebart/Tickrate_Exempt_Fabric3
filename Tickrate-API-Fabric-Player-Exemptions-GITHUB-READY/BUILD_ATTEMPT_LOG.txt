@@ -1,7 +1,0 @@
-Build was not completed in the ChatGPT sandbox because Gradle dependency resolution is blocked by DNS/network restrictions from the shell environment.
-Previous failure occurred before Java compilation while resolving services.gradle.org / Fabric Maven dependencies.
-
-Run locally with Java 17:
-  gradlew.bat build
-or:
-  ./gradlew build
