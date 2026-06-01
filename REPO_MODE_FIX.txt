@@ -1,0 +1,1 @@
+Fixed settings.gradle: changed dependencyResolutionManagement repositoriesMode from FAIL_ON_PROJECT_REPOS to PREFER_PROJECT so Fabric Loom can add its required LoomLocalRemappedMods repository during the build.
